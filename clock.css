@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background:rgb(251, 247, 247);
+    box-shadow: 0px 0px 10px 40px rgb(225, 224, 224);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+  h1{
+    text-align: center;
+    border-style:dashed;
+  }
+  #time{
+    background-color: rgb(243, 245, 247);
+    box-shadow: 0px 0px 10px 40px rgb(225, 224, 224);
+    opacity: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color:black;
+    font-size: 50px;
+    font-family: 'Cardo', serif;
+    border-style:dashed;
+    letter-spacing: 7px;
+}
